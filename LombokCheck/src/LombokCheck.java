@@ -1,7 +1,7 @@
 
 
 
-@Data
+
 public class LombokCheck {
 	
 	private String name;
