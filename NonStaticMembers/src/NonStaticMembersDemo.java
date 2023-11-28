@@ -17,14 +17,19 @@ public class NonStaticMembersDemo {
 	//
 	public static void main(String[] args) {
 		System.out.println("Inside the main Method");
-		new NonStaticMembersDemo();
-		new NonStaticMembersDemo();
-		new NonStaticMembersDemo();
+		NonStaticMembersDemo obj = new NonStaticMembersDemo();
+		obj.doSomething();
+		
 	}
 	
 	
 	static {
 		System.out.println("Inside treh static block");
+	}
+	
+	
+	void doSomething() {
+		System.out.println("Inside Do Something");
 	}
 
 }
