@@ -15,7 +15,7 @@ public class BreakStatementWithLabel {
 			j : for(int j = 0;j<Arr[i].length;j++) {
 				if(Arr[i][j] == 8) {
 					blnFound = true;
-					break;
+					break i;
 				}
 			}
 		}
