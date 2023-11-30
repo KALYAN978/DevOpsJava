@@ -1658,3 +1658,34 @@ java.lang.IllegalStateException: Disconnected before saving. Please post stacktr
 		at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
 		at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
 		... 21 more
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-11-30 09:49:41.490
+!MESSAGE Classpath changed for project: PractisePrograms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-30 09:49:45.065
+!MESSAGE executing callback sts4.classpath.aAAowfDQ FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-11-30 09:49:45.069
+!MESSAGE executing callback sts4.classpath.kYDpWHjL FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2023-11-30 09:49:45.072
+!MESSAGE No language server has registered to handle command 'sts4.classpath.aAAowfDQ'
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.aAAowfDQ'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.lambda$1(LSP4ECommandExecutor.java:32)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:32)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2023-11-30 09:49:45.078
+!MESSAGE No language server has registered to handle command 'sts4.classpath.kYDpWHjL'
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.kYDpWHjL'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.lambda$1(LSP4ECommandExecutor.java:32)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:32)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
