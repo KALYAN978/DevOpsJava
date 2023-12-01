@@ -38,7 +38,6 @@ INDEX VERSION 1.134+C:\Users\KALYPATN\Documents\JAVA\springmicroservice\.metadat
 3531769801.index
 3312804010.index
 3607339267.index
-3971829705.index
 3657113864.index
 1327106668.index
 2495495702.index
