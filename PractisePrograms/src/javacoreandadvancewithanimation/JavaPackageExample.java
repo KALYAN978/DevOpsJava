@@ -3,6 +3,8 @@
 
 package javacoreandadvancewithanimation;
 
+// package keyword is used to create package in java
+
 public class JavaPackageExample {
 
 	public static void main(String[] args) {

@@ -1,2 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+    <typeInfo handle="=Inheritance/src&lt;{JDK6.java[JDK6" modifiers="1" timestamp="1701246241406"/>
+    <typeInfo handle="=Inheritance/src&lt;{JDK7.java[JDK7" modifiers="1" timestamp="1701246241419"/>
+    <typeInfo handle="=Inheritance/src&lt;moreinheritanceconcepts{SuperClass.java[SuperClass" modifiers="1" timestamp="1701249127552"/>
+    <typeInfo handle="=Inheritance/src&lt;com.employee.inheritance{Employee.java[Employee" modifiers="1" timestamp="1701254386882"/>
+    <typeInfo handle="=Abstraction/src&lt;interfaces{Car.java[Car" modifiers="513" timestamp="1701421185018"/>
+</typeInfoHistroy>
