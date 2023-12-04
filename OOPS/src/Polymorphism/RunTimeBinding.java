@@ -4,15 +4,24 @@ public class RunTimeBinding {
 
 	public static void main(String[] args) {
 
-		MACBook m1 = new MACBookPro();
+		AppleLaptop m1 = new MACBookPro();
 
-		MACBook m2 = new MACBookAir();
+		AppleLaptop m2 = new MACBookAir();
+		
+		//Object UpCasting 
 
 		m1.start();
 		m1.shutdown();
+		
+		
+		MACBookPro m3 = (MACBookPro) m1;  //Object DownCasting
+		m3.prosmethod();
 
 		m2.start();
 		m2.shutdown();
+		
+		MACBookAir m4 = (MACBookAir) m2;  //Object DownCasting
+		
 
 	}
 

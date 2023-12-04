@@ -9,8 +9,13 @@ public class MACBookPro extends MACBook {
 	
 	
 	@Override
-	public void shutdown() {
+	public  void shutdown() {
 		System.out.println("Inside MacBookPros shutdown Method");
+	}
+	
+	
+	public void prosmethod() {
+		System.out.println("Inside MacBookPros prosmethod Method");
 	}
 
 }
