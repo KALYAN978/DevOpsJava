@@ -9,9 +9,10 @@ public class Test {
 		
 		Organizer organizer = new Organizer();
 		
-		organizer.id =   123l;
+		organizer.setId(123l);
+		organizer.setName("Capgemini");
 		System.out.println(organizer);
-		System.out.println(organizer.name);
+		System.out.println(organizer.getName());
 		
 		
 		Event event = new Event(454l,"Iphone 100 launch","Grand Launch");
@@ -20,7 +21,7 @@ public class Test {
 //		event.name = "Iphone 100 launch";
 //		event.description = "Grand Launch";
 		
-		System.out.println(event.description);
+		System.out.println(event.getDescription());
 		
 		
 		

@@ -2,8 +2,8 @@ package com.emc.entities;
 
 public class EMBase {
 	
-	public Long id;
-	public String name;
+	private Long id;  //protected fields can extended by child class
+	private String name;
 	
 
 }
