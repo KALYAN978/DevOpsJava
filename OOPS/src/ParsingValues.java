@@ -14,6 +14,7 @@ public class ParsingValues {
 		String userAgeWithPartialYear = "22.5";
 		double ageWithPartialYear = Double.parseDouble(userAgeWithPartialYear);
 		
+		System.out.println("The User says he's " + ageWithPartialYear);
 
 	}
 
