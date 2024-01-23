@@ -30,7 +30,7 @@ public class PalindromeNumberScanner {
 		else {
 			System.out.println("Entered string is not output");
 		}
-		
+	 
 		
 		
 		
