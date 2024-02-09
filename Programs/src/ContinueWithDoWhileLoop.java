@@ -11,7 +11,7 @@ public class ContinueWithDoWhileLoop {
 				continue;
 			}
 			
-			System.err.println("Value of item : "+ x);
+			System.out.println("Value of item : "+ x);
 			System.out.println("\n");
 			
 		}while(x < 20);
